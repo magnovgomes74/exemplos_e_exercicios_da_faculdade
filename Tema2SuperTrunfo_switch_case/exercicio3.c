@@ -26,6 +26,7 @@ int main() {
     }*/
 
 
+    
     printf("Entre com o valor dia da semana: ");
     scanf("%d", &dia);
 
