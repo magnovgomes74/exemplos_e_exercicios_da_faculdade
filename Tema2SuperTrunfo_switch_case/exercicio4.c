@@ -4,7 +4,7 @@
 
 int main() {
 
-    int opcao;
+    int opcao, regras;
     int numeroSecreto, palpite;
 
     printf("Menu Principal\n");
@@ -31,12 +31,23 @@ int main() {
         }
 
         break;
-    /*case 2:
+    case 2:
         printf("Regras do jogo:\n");
-        printf("1 - Cada jogador escolhe uma carta\n");
-        printf("2 - O jogador que tiver a carta com o maior valor vence\n");
-        printf("3 - O jogo termina quando um dos jogadores ficar sem cartas\n");
-        break;
+        printf("Insira a opção relacionada as regras do jogo\n");
+        scanf("%d", &regras);
+
+        switch (regras)
+        {
+        case 1:
+            printf("1 - Cada jogador escolhe um número\n");
+            break;
+        case 2:
+            printf("2 - O jogador que acertar o número aleatório vence!\n");
+            break;
+        default:
+            printf("Opção inválida\n");
+            break;
+        }
     case 3:
         printf("Saindo do jogo...\n");
         break;
@@ -44,7 +55,7 @@ int main() {
     default:
         printf("Opção inválida\n");
         break;
-    }*/
+    }
 
     printf("\n\n");
 
