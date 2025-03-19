@@ -2,6 +2,8 @@
 
 int main() {
 
+    // Vetores e Matriz.
+
     int index;
 
     char * nomesalunos[3][3] = {

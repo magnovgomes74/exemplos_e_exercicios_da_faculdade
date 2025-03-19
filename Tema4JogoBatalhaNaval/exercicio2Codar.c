@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Vetores, Matriz e Funções.
+
 #define linhas 5 // Definindo o tamanho da linha da matriz
 #define colunas 5 // Definindo o tamanho da coluna da matriz
 
